@@ -167,6 +167,7 @@ section{
 width: 250px;
   		height: auto;
   		top:100px;
+		margin:5px;
   	}
   }
   @media(max-width:530px){
