@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="stare.css">
+	<title>Video</title>
+</head> 
+<body>
+	<div class="container">
+		<div class="heading">Gallery</div>
+		<div class="video-container">
+			<div class="video">
+				<video src="r.mp4"></video></div>
+
+				<div class="video">
+				<video src="pudki.mp4"></video></div>
+
+				<div class="video">
+				<video src="2.mp4"></video></div>
+
+				<div class="video">
+				<video src="3.mp4"></video></div>
+				<div class="video">
+				<video src="q.mp4"></video></div>
+				<div class="video">
+				<video src="w.mp4"></video></div>
+				<div class="video">				
+				<video src="t.mp4"></video></div>
+				<div class="video">				
+				<video src="s.mp4"></video></div>
+				<div class="video">
+				<video src="y.mp4"></video></div>
+				
+				
+				
+			</div>
+		</div>
+	</div>
+
+	<script >
+		var video = document.querySelectorAll('video')
+		video.forEach(play => play.addEventListener('click',() => {
+			play.classList.toggle('active');
+
+			if(play.paused){
+				play.play();
+			}else{
+				play.pause();
+				play.currentTime = 0;
+			}
+		}));
+	</script>
+
+</body>
+</html>
