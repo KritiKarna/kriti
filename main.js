@@ -56,13 +56,13 @@ let track_list = [
 },
 {
 	name: "Vayo tmro",
-	artist: "Tours",
+	artist: "@_kriti_karna_",
 	image: "Image URL",
 	path: "5.mp3"
 },
 {
 	name: "Try",
-	artist: "Tours",
+	artist: "@_kriti_karna_",
 	image: "Image URL",
 	path: "4.mp3"
 },
